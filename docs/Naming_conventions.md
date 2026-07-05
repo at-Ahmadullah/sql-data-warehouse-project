@@ -4,16 +4,15 @@ This document outlines the naming conventions used to name schemas, tables, view
 
 # Table of Contents
 
-1. [General Principles](https://github.com/at-Ahmadullah/sql-data-warehouse-project/blob/main/docs/Naming_conventions.md#L17-L21)
-2. [Table Naming Conventions](https://github.com/at-Ahmadullah/sql-data-warehouse-project/blob/main/docs/Naming_conventions.md#L23)
-    - [Bronze rules](https://github.com/at-Ahmadullah/sql-data-warehouse-project/blob/main/docs/Naming_conventions.md#L25-L31)
-    - [Silver rules](https://github.com/at-Ahmadullah/sql-data-warehouse-project/blob/main/docs/Naming_conventions.md#L33-L39)
-    - [Gold rules](https://github.com/at-Ahmadullah/sql-data-warehouse-project/blob/main/docs/Naming_conventions.md#L41-L57)
-4. [Column Naming Conventions](https://github.com/at-Ahmadullah/sql-data-warehouse-project/blob/main/docs/Naming_conventions.md#L59)
-    - [Surrogate Keys](https://github.com/at-Ahmadullah/sql-data-warehouse-project/blob/main/docs/Naming_conventions.md#L61-L67)
-    - [Technical Columns](https://github.com/at-Ahmadullah/sql-data-warehouse-project/blob/main/docs/Naming_conventions.md#L69-L75)
-5. [Stored Procedure](https://github.com/at-Ahmadullah/sql-data-warehouse-project/blob/main/docs/Naming_conventions.md#L77-L85)
-
+1. [General Principles](#general-priciples)
+2. [Table Naming Conventions](#table-naming-conventions)
+    - [Bronze rules](#bronze-rules)
+    - [Silver rules](#silver-rules)
+    - [Gold rules](#gold-rules)
+4. [Column Naming Conventions](#column-naming-conventions)
+    - [Surrogate Keys](#surrogate-keys)
+    - [Technical Columns](#technical-columns)
+5. [Stored Procedure](#stored-procedure)
 # General Priciples
 
 - Naming Conventions: Use snake_case, with lowercase letters and underscores (_) to separate words.

@@ -1,26 +1,26 @@
-#Naming Conventions
+# Naming Conventions
 ----
 This document outlines the naming conventions used to name schemas, tables, views, columns and other objects in the data warehouse.
 
-#Table of Contents
+# Table of Contents
 ----
 1. [General Principles](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L17-L21)
 2. [Table Naming Conventions](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L23)
-  - [Bronze rules](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L25-L30)
-  - [Silver rules](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L32-L37)
-  - [Gold rules](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L39-L53)
+    - [Bronze rules](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L25-L30)
+    - [Silver rules](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L32-L37)
+    - [Gold rules](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L39-L53)
 3. [Column Naming Conventions](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L55)
-  - [Surrogate Keys](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L57-L62)
-  - [Technical Columns](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L64-L69)
+    - [Surrogate Keys](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L57-L62)
+    - [Technical Columns](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L64-L69)
 4. [Stored Procedure](https://github.com/at-Ahmadullah/sql-data-warehouse-project/new/main/docs/Naming_conventions.md#L71-L78)
 -----
-#General Priciples
+# General Priciples
 ----
 - Naming Conventions: Use snake_case, with lowercase letters and underscores (_) to separate words.
 - Language: Use English for all names.
 - Avoid Reserved Words: Do not use SQL reserved words as object names.
 
-#Table Naming Conventions
+# Table Naming Conventions
 -----
 ## Bronze Rules
 - All names must start with the source system names and the table names must match their original names without renaming.
@@ -45,7 +45,7 @@ This document outlines the naming conventions used to name schemas, tables, view
       = dim_customers → Dimension table for customer data.
       = fact_sales → Fact table containing sales transactions.
 
-###Glossary of Category Patterns
+### Glossary of Category Patterns
 | Pattern | Meaning	| Example(s) |
 |---------|---------|------------|
 | dim_	| Dimension table	| dim_customer, dim_product |
@@ -68,7 +68,7 @@ This document outlines the naming conventions used to name schemas, tables, view
   * <column_name>: Descriptive name indicating the column's purpose.
   * Example: dwh_load_date → System-generated column used to store the date when the record was loaded.
 
-#Stored Procedure
+# Stored Procedure
 -----
 - All stored procedures used for loading data must follow the naming pattern:
 - load_<layer>.
